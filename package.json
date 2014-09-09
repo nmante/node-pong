@@ -1,0 +1,30 @@
+{
+  "name": "niiPong",
+  "version": "0.0.0",
+  "description": "A pong game implemented in Node.JS",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/nmante/node-pong.git"
+  },
+  "keywords": [
+    "node",
+    "pong",
+    "express",
+    "socket.io"
+  ],
+  "author": "Nii Mante",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nmante/node-pong/issues"
+  },
+  "homepage": "https://github.com/nmante/node-pong",
+  "dependencies": {
+    "express": "^4.9.0",
+    "socket.io": "^1.1.0",
+    "zmq": "^2.8.0"
+  }
+}
